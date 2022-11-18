@@ -4,6 +4,13 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <PackageId>MySecondPrivatePackage</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Osvaldo Ribeiro</Authors>
+    <Company>ORS</Company>
+    <PackageDescription>Meu segundo pacote de exemplo</PackageDescription>
+    <RepositoryUrl>https://github.com/osvaldoribeirodev/my-second-private-package</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
