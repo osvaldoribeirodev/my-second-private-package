@@ -19,7 +19,7 @@ jobs:
 
     - name: Add GitHub Packages Source
       run: |
-          dotnet nuget add source https://nuget.pkg.github.com/osvaldoribeirodev/index.json -n github -u ${{ github.actor }} -p ${{ secrets.READ_GH_PACKAGES_PAT_ORG }} --store-password-in-clear-text
+          dotnet nuget add source https://nuget.pkg.github.com/osvaldoribeirodev/index.json -n github -u ${{ github.actor }} -p ${{ secrets.READ_GH_PACKAGES_PAT_ORG }}
           dotnet restore ./MySecondPrivatePackage.sln
           dotnet build ./MySecondPrivatePackage.sln --no-restore --configuration Release --nologo
     
